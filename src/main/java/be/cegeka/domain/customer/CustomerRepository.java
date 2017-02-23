@@ -4,13 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CustomerRepository {
+
     List<Customer> customers = new ArrayList<>();
 
     public void addCustomer(Customer customer) {
         customers.add(customer);
     }
 
-    public List<Customer> getAllCustomers() { return customers;}
+    public List<Customer> getAllCustomers() {
+        return customers;
+    }
 
     public Customer getCustomerByName(String name) {
         Customer returnCustomer = null;
