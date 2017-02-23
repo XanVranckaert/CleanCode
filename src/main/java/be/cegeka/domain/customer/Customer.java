@@ -1,4 +1,4 @@
-package be.cegeka;
+package be.cegeka.domain.customer;
 
 public class Customer {
     private String name;

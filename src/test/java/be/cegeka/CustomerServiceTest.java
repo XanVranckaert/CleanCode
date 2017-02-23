@@ -1,6 +1,8 @@
 package be.cegeka;
 
-import org.apache.catalina.startup.Tomcat;
+import be.cegeka.domain.customer.Customer;
+import be.cegeka.domain.customer.CustomerRepository;
+import be.cegeka.domain.customer.CustomerService;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -10,7 +12,6 @@ import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
 
-import static com.sun.javaws.JnlpxArgs.verify;
 import static org.mockito.ArgumentMatchers.refEq;
 
 public class CustomerServiceTest {
